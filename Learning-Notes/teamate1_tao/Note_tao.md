@@ -65,3 +65,28 @@ C语言综合时不能综合动态内存分配问题
 -----
 
 ## 4.4-4.10
+
+- **企业培训第一弹学习记录**
+
+板卡：zybo-Z7-20
+芯片：Xilinx XC7Z020-1CLG400C & Artix-7（ARM Cortex-A9双核 & FPGA）
+存储器：1GB DDR3；16MB FLASH；MicroSD卡槽
+
+Vivado建立工程：
+Github上clone官方的boards文件放到Vivado目录下，新建工程时直接可以选择对应板卡即可
+
+PL端示例：
+添加source文件和约束文件，综合完成之后进行烧录即可
+
+PS端实例：
+完成系统设计后生成比特文件打开SDK进行编程
+
+虚拟仪器测试数字信号I/O示例（Pmod）接口：Waveform软件
+
+PS与PL互联：AXI interconnet
+
+
+- **C语言高级综合**
+
+参照先前对整个神经网络的细化，我参照了github上的项目，将卷积和池化运算单独拿了出来，分别进行了C仿真和综合，综合成功，已经封装为IP加入到FPGA系统中，将进一步在SDK上对这两个模块进行调用测试。
+
