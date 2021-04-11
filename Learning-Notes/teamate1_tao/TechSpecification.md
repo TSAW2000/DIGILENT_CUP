@@ -13,7 +13,9 @@
 ## 2.	系统框架及硬件介绍
 
 ### 2.1	系统总框图
-本系统的主要功能部件包括
+本系统的主要功能部件包括神经加速模块、摄像头输入模块以及输出模块
+
+![1618134330706](E:\work\FPGA\digilent\Github\DIGILENT_CUP\Learning-Notes\teamate1_tao\assets\1618134330706.png)
 
 
 

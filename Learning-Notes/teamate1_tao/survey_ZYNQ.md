@@ -8,10 +8,8 @@
 <u>官方教学视频推荐的就是这个板子</u>
 
 **官网外设：**
-[Pcam 5C：](http://www.digilent.com.cn/products/proinfo/456.html)是一款适用于FPGA（ZYBO Z7）开发板的成像模块。 
+[Pcam 5C：](http://www.digilent.com.cn/products/proinfo/456.html)是一款适用于FPGA（ZYBO Z7）开发板的成像模块。 （上面的摄像头就是OV5640）
 [FMC Pcam（CSI-2接口）适配器：](http://www.digilent.com.cn/products/proinfo/474.html)适配器可与Digilent的Pcam相机解决方案配合使用。
-[PmodDPG1：](http://www.digilent.com.cn/products/pmoddpg1-differential-pressure-gauge-sensor.html)压差计模块。板载有压阻传感器和ADC，检测出两个端口之间的压差接PMOD口
-[PmodCLS：](http://www.digilent.com.cn/products/product-pmodcls.html)带有串行接口的字符型LCD，16x2字符的显示器。
 
 **第三方外设：**
 [OV5640：](https://www.cnblogs.com/xuexizhe/p/8710063.html)CMOS类型数字图像传感器。<u>去年集创赛arm杯上开源作品都用的是这个摄像头</u>
